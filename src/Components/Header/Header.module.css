@@ -1,0 +1,9 @@
+.header {
+  background-color: cadetblue;
+  top: 0px;
+  bottom: 0px;
+  position: sticky;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
