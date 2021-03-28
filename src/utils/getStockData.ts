@@ -14,47 +14,28 @@ export type NameOfStock =
   | "CAJ"
   | "NINOY";
 
+const getArrayData = (max: number, min?: number): Data[] =>
+  new Array(10)
+    .fill(null)
+    .map(
+      (elem: Data, index: number) =>
+        (elem = { date: getDate(index), amount: getRandomNumber(max, min) })
+    );
+
 const getStockData = (nameOfStock: NameOfStock): StockData => {
   return {
     name: nameOfStock,
-    prices: new Array(10)
-      .fill(null)
-      .map(
-        (elem: Data, index: number) =>
-          (elem = { date: getDate(index), amount: getRandomNumber(1000, 800) })
-      ),
+    prices: getArrayData(1000, 800),
     socialMedia: [
       {
         name: "Facebook",
-        count: new Array(10)
-          .fill(null)
-          .map(
-            (elem: Data, index: number) =>
-              (elem = { date: getDate(index), amount: getRandomNumber(100) })
-          ),
-        prices: new Array(10).fill(null).map(
-          (elem: Data, index: number) =>
-            (elem = {
-              date: getDate(index),
-              amount: getRandomNumber(1000, 800),
-            })
-        ),
+        count: getArrayData(100),
+        prices: getArrayData(1000, 800),
       },
       {
         name: "Twitter",
-        count: new Array(10)
-          .fill(null)
-          .map(
-            (elem: Data, index: number) =>
-              (elem = { date: getDate(index), amount: getRandomNumber(100) })
-          ),
-        prices: new Array(10).fill(null).map(
-          (elem: Data, index: number) =>
-            (elem = {
-              date: getDate(index),
-              amount: getRandomNumber(1000, 800),
-            })
-        ),
+        count: getArrayData(100),
+        prices: getArrayData(1000, 800),
       },
     ],
   };
