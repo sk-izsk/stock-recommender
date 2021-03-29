@@ -5,7 +5,7 @@ export interface Data {
   amount: number;
 }
 
-export type SocialMediaType = "Facebook" | "Twitter";
+export type SocialMediaType = "facebook" | "twitter";
 
 export interface SocialMedia {
   name: SocialMediaType;

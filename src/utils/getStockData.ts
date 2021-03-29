@@ -28,12 +28,12 @@ const getStockData = (nameOfStock: NameOfStock): StockData => {
     prices: getArrayData(1000, 800),
     socialMedia: [
       {
-        name: "Facebook",
+        name: "facebook",
         count: getArrayData(100),
         prices: getArrayData(1000, 800),
       },
       {
-        name: "Twitter",
+        name: "twitter",
         count: getArrayData(100),
         prices: getArrayData(1000, 800),
       },

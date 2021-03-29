@@ -4,19 +4,15 @@ import styles from "./InputField.module.css";
 interface Props {
   stockPriceValue: string;
   socialMediaCountValue: string;
-  recommendationValue: string;
   stockPriceHandler: (e: ChangeEvent<HTMLInputElement>) => void;
   socialMediaCountHandler: (e: ChangeEvent<HTMLInputElement>) => void;
-  stockRecommendationHandler: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
 const InputField: React.FC<Props> = ({
   stockPriceValue,
   socialMediaCountValue,
-  recommendationValue,
   stockPriceHandler,
   socialMediaCountHandler,
-  stockRecommendationHandler,
 }) => {
   return (
     <div className={styles.inputFieldContainer}>
@@ -34,20 +30,10 @@ const InputField: React.FC<Props> = ({
         <label>Find social media count</label>
         <input
           type="text"
-          placeholder="eg: APPL,Facebook"
+          placeholder="eg: APPL,facebook"
           name="socialMediaCount"
           value={socialMediaCountValue}
           onChange={socialMediaCountHandler}
-        />
-      </div>
-      <div className={styles.inputField}>
-        <label>Find the stock recommendation</label>
-        <input
-          type="text"
-          placeholder="eg: APPL"
-          name="recommendation"
-          value={recommendationValue}
-          onChange={stockRecommendationHandler}
         />
       </div>
     </div>
