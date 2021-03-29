@@ -85,9 +85,14 @@ const App: React.FC = () => {
           />
         )}
       </div>
-      <div className="tableContainer">
-        <Table stockPrice={addedStockList} handleSellStock={handleSellStock} />
-      </div>
+      {addedStockList.length > 0 && (
+        <div className="tableContainer">
+          <Table
+            stockPrice={addedStockList}
+            handleSellStock={handleSellStock}
+          />
+        </div>
+      )}
     </div>
   );
 };

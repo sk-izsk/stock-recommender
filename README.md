@@ -1,46 +1,112 @@
-# Getting Started with Create React App
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
 
-## Available Scripts
+  <h3 align="center">Stock Recommender</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    Built in React 
+    <br />
+  </p>
+</p>
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+    - [Frontend](#frontend)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Contact](#contact)
 
-### `yarn test`
+  - [Built With](#built-with)
+    - [Frontend](#frontend)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+    - [Frontend](#frontend)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Contact](#contact)
 
-### `yarn build`
+<!-- ABOUT THE PROJECT -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## About The Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Product Name Screen Shot][product-screenshot]]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `yarn eject`
+#### Frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The Frontend of this portfolio build mainly on React along with some other important technologies followed
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://reactjs.org)
+- [React-Hooks](https://reactjs.org)
+- [Typescript](https://www.typescriptlang.org)
+- [Yarn](https://classic.yarnpkg.com/lang/en/)
+- [Prettier](https://prettier.io)
+- [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- GETTING STARTED -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+This is just simple guide incase if you wish to run this locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can either go with Yarn (version-1) or NPM. I personally like Yarn so I describe accordingly. Kindly follow the corresponding npm command incase if you use npm
+
+- Yarn / npm
+
+```sh
+npm install yarn
+```
+
+### Installation
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/sk-izsk/stock-recommender.git
+```
+
+2. Install NPM packages
+
+```sh
+yarn
+```
+
+```sh
+yarn start
+```
+
+3. Testing
+
+```sh
+yarn test
+```
+
+<!-- CONTACT -->
+
+## Contact
+
+Shaikh Zeeshan Murshed - [@Sk_iZsk](https://twitter.com/Sk_iZsk) - sk.zeeshan1992@gmail.com
+
+Project Link: [https://github.com/sk-izsk/portfolio](https://github.com/sk-izsk/portfolio)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/skizsk/
+[product-screenshot]: README/sample.gif

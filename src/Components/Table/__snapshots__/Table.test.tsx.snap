@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="table"
+  >
+    <header>
+      <div
+        class="headerItem"
+      >
+        name
+      </div>
+      <div
+        class="headerItem"
+      >
+        date
+      </div>
+      <div
+        class="headerItem"
+      >
+        price
+      </div>
+      <div
+        class="headerItem"
+      >
+        recommendation
+      </div>
+      <div
+        class="headerItem"
+      >
+        action
+      </div>
+    </header>
+    <hr
+      class="solid"
+    />
+    <div
+      class="tableItem"
+    >
+      <div
+        class="name"
+      >
+        Name: APPL
+      </div>
+      <div
+        class="date"
+      >
+        date: 29-03-21
+      </div>
+      <div
+        class="amount"
+      >
+        price: $ 950
+      </div>
+      <div
+        class="recommendationContainer"
+      >
+        Recommendation: 
+        <span
+          class="sell"
+        >
+          sell
+        </span>
+      </div>
+      <button
+        class="button"
+      >
+        Sell
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

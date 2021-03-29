@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="inputFieldContainer"
+  >
+    <div
+      class="inputField"
+    >
+      <label>
+        Find the stock price
+      </label>
+      <input
+        name="stockPrice"
+        placeholder="eg: APPL,02-01-21"
+        type="text"
+        value="Mock Value"
+      />
+    </div>
+    <div
+      class="inputField"
+    >
+      <label>
+        Find social media count
+      </label>
+      <input
+        name="socialMediaCount"
+        placeholder="eg: APPL,facebook"
+        type="text"
+        value="Mock Counter"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
